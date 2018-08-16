@@ -1,0 +1,322 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+/*
+  HOMEPAGE DESIGN | Intro
+*/
+
+#intro{
+	width: 100%;
+	height: 662px;
+	background: url("currated_images/sand.jpg") no-repeat;
+	background-size: 1365px, 662px;
+	background-attachment: fixed;
+}
+.overlay{
+	width: 100%;
+	height: 662px;
+	background-color: RGBA(0,0,0,0.4)
+}
+.left_box{
+	width: 87.8%;
+	height: 500px;
+	background: url("currated_images/clear_sand.jpg") no-repeat;
+	background-size: 1200px, 400px;
+	background-attachment: fixed;
+	position: relative;
+	top: 80px;
+	box-shadow: 3px 6px 39px 3px rgb(0,0,0,);
+	-webkit-box-shadow: 3px 6px 39px 3px rgba(0,0,0);
+	-moz-box-shadow: 3px 6px 39px 3px rgba(0,0,0);
+}
+#menu a{
+	font-family: segoe ui light;
+	font-size: 13px;
+	color: #fff;
+	margin-left: 20px;
+	padding: 0;
+	text-decoration: none;
+	position: relative;
+	top: 30px;
+	transition: 0.20s linear;
+}
+#menu a:hover{
+	color: #ffa800;
+}
+#tri_box{
+	width: 600px;
+	height: 500px;
+	background: url("currated_images/tri_overlay.png");
+	display: inline-grid;
+}
+#img_intro{
+	margin-left: 420px;
+	margin-top: 60px;
+}
+#hid{
+	font-family: segoe ui light;
+	font-size: 52px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	display: inline-grid;
+	position: relative;
+	bottom: 200px;
+}
+
+/*The Intro word*/
+
+#intro_con{
+	position: relative;
+	left: 550px;
+	top: 150px;
+}
+
+#headid{
+	font-family: segoe ui light;
+	font-size: 50px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+#sub{
+	font-family: eras itc light;
+	font-size: 42px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+}
+#sub_con{
+	font-family: segoe ui light;
+	font-size: 15px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+}
+
+/*
+  HOMEPAGE DESIGN | Section 2
+*/
+
+#section2{
+	width: 100%;
+	height: 450px;
+	background-color: #ad5300;
+	box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.4);
+	-moz-box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.4);
+}
+.log{
+	background-color: #2d2c2c;
+	box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.4);
+	-moz-box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.4);
+}
+.seperater{
+	width: 1px;
+	height: 30px;
+}
+#log1{
+	width: 350px;
+	height: 100px;
+}
+#log2{
+	width: 450px;
+	height: 100px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#log3{
+	width: 550px;
+	height: 100px;
+	display: inline-grid;
+}
+.words_div{
+	display: inline-grid;
+	grid-column: auto;
+	grid-row: auto;
+}
+#pid{
+	font-family: segoe ui light;
+	font-size: 16px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+/*POS*/
+.ppos{
+	position: relative;
+	bottom: 150px;
+	left: 20px;
+}
+#spacer1{
+	height: 1px;
+	width: 20px;
+}
+
+/*
+  HOMEPAGE | Section 3
+*/
+#section3{
+	width: 100%;
+	height: 550px;
+	background: url("currated_images/glow.jpg") no-repeat;
+	background-size: 1365px, 550px;
+	background-attachment: fixed;
+}
+.fig{
+	width: 300px;
+	height: 400px;
+	box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.6);
+	-moz-box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.6);
+	display: inline-grid;
+	grid-row: auto;
+	grid-column: auto;
+	margin-top: 80px;
+	margin-left: 100px; 
+}
+#fig1{
+	background: url("currated_images/chap_roll.jpg") no-repeat;
+	background-size: 700px, 1000px;
+}
+#fig2{
+	background: url("currated_images/finger_sun.jpg") no-repeat;
+	background-size: 700px, 1000px;
+}
+#fig3{
+	background: url("currated_images/table.jpg") no-repeat;
+	background-size: 700px, 1000px;
+}
+#lower_lap{
+	width: 100%;
+	height: 150px;
+	background: url("currated_images/lower_lap.png");
+	float: bottom;
+	margin-top: 45.5px;
+}
+#semi_header{
+	font-family: segoe ui light;
+	font-size: 24px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 60px;
+}
+
+/*
+  HOMEPAGE | Section 4
+*/
+#section4{
+	width: 100%;
+	height: 450px;
+	background: #c66b2d;
+}
+.orb_placer{
+	display: inline-grid;
+	grid-row: auto;
+	grid-column: auto;
+}
+.orb{
+	width: 250px;
+	height: 250px;
+	border: solid #fff 1px;
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-left: 139px;
+	box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.4);
+	-moz-box-shadow: 3px 6px 49px 3px rgba(0,0,0,0.4); 
+}
+
+/*
+  ORBs
+*/
+#orb1{
+	background: url("currated_images/chips.png") no-repeat;
+	background-position: -125px 0;
+}
+#orb2{
+	background: url("currated_images/lenovo_flat.png") no-repeat;
+	background-position: -115px 0;
+}
+#orb3{
+	background: url("currated_images/pencil.png") no-repeat;
+	background-position: -120px -5px;
+}
+/*
+  Button
+*/
+#btn{
+	width: 150px;
+	height: 40px;
+	margin: 5px;
+	padding: 5px;
+	border: 1px  solid #fff;
+	border-radius: 50px;
+	background-color: rgba(0,0,0,0);
+	font-family: segoe ui light;
+	font-size: 14px;
+	color: #fff;
+	position: relative;
+	left: 60px;
+	top: 50px;
+}
+
+/*
+  HOMEPAGE | Block-Linear
+*/
+
+#line-block{
+	width: 100%;
+	height: 150px;
+	background: url("currated_images/sand_line.jpg") no-repeat;
+	background-size: 1370px, 1050px;
+	background-position: 0 -100px;
+	background-attachment: fixed;
+}
+#header{
+	font-family: kristen itc;
+	font-size: 52px;
+	color: #fff;
+	font-weight: 900;
+	padding: 0;
+	padding-top: 50px;
+	margin: 0;
+}
+
+/*
+  HOMEPAGE | Bottom / copyright block
+*/
+#c-block{
+	width: 100%;
+	height: 300px;
+	background-color: #2d2c2c;
+}
+#head{
+	font-family: segoe ui;
+	font-size: 42px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	padding-top: 80px;
+}
+#circle{
+	width: 100px;
+	height: 100px;
+	background: rgba(0,0,0,0);
+	border: 1px solid #fff;
+	border-radius: 100%;
+	display: inline-grid;
+	grid-row: auto;
+	grid-column: auto;
+	margin: 30px;
+}
+#circle img{
+	padding-top: 15px;
+}
